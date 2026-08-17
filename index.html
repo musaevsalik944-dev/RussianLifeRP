@@ -2,12 +2,259 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Russian Life RP</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#080b10;
+color:#fff
+}
+header{
+padding:18px;
+background:#111820;
+text-align:center;
+font-size:22px;
+font-weight:bold;
+border-bottom:1px solid #26313d
+}
+.blue{color:#4da3ff}
+.hero{
+padding:90px 20px;
+text-align:center;
+background:linear-gradient(135deg,#10263a,#080b10)
+}
+.hero h1{
+font-size:52px;
+margin:0 0 15px
+}
+.hero p{
+color:#b9c3ce;
+font-size:18px
+}
+.button{
+display:inline-block;
+margin-top:20px;
+padding:14px 24px;
+background:#3489dc;
+border-radius:12px;
+color:#fff;
+text-decoration:none;
+font-weight:bold
+}
+section{
+max-width:1050px;
+margin:auto;
+padding:55px 20px
+}
+h2{text-align:center;font-size:32px}
+.cards{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:15px
+}
+.card{
+background:#11171f;
+border:1px solid #283440;
+border-radius:16px;
+padding:22px
+}
+.card h3{font-size:21px}
+.card p{
+color:#aeb8c3;
+line-height:1.5
+}
+.icon{font-size:35px}
+footer{
+padding:30px;
+text-align:center;
+color:#75808c;
+border-top:1px solid #252d36
+}
+@media(max-width:700px){
+.cards{grid-template-columns:1fr}
+.hero h1{font-size:40px}
+}
+</style>
 </head>
+
 <body>
-<h1>🇷🇺 RUSSIAN LIFE RP</h1>
-<h2>Игра находится в разработке 🚧</h2>
-<p>🚕 Такси • 🚛 Дальнобойщик • 🏗️ Строитель • ✈️ Лётчик</p>
+
+<header>
+🇷🇺 RUSSIAN <span class="blue">LIFE RP</span>
+</header>
+
+<div class="hero">
+
+<h1>RUSSIAN<br><span class="blue">LIFE RP</span></h1>
+
+<p>
+Твоя жизнь. Твой город. Твои правила.
+</p>
+
+<p>
+🏙️ Батырево • Бусаево • Нижегородск
+</p>
+
+<a class="button" href="#jobs">
+Узнать об игре
+</a>
+
+</div>
+
+<section id="jobs">
+
+<h2>🎮 Работы</h2>
+
+<div class="cards">
+
+<div class="card">
+<div class="icon">🚕</div>
+<h3>Таксист</h3>
+<p>
+Заказ от 3 000 ₽.<br>
+200 клиентов — уровень 2.<br>
+400 клиентов — уровень 3.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🚛</div>
+<h3>Дальнобойщик</h3>
+<p>
+Междугородние перевозки.
+Батырево → Нижегородск.
+100 000 ₽ за выполненный заказ.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🏗️</div>
+<h3>Строитель</h3>
+<p>
+Выполняй строительные работы
+и получай до 20 000 ₽.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🤿</div>
+<h3>Водолаз</h3>
+<p>
+400 000 ₽ за две ходки.
+После выполнения заказов
+действует ограничение.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">✈️</div>
+<h3>Лётчик</h3>
+<p>
+Пассажирские перелёты,
+лицензия пилота и
+реалистичное обучение.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🔧</div>
+<h3>Механик</h3>
+<p>
+Ремонт автомобилей после ДТП.
+Оплата за работу — 45 000 ₽.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>🚗 Транспорт</h2>
+
+<div class="cards">
+
+<div class="card">
+<div class="icon">🚘</div>
+<h3>Автомобили</h3>
+<p>
+Машины могут повреждаться
+после аварий и нуждаться
+в ремонте.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🚨</div>
+<h3>Эвакуатор</h3>
+<p>
+Доставка сломанных машин
+в сервисный центр.
+Оплата — 30 000 ₽.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🚦</div>
+<h3>ПДД</h3>
+<p>
+Светофоры, скорость,
+полосы движения,
+штрафы и лишение прав.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>👑 Администрация</h2>
+
+<div class="card">
+
+<p>
+В игре будет система репортов.
+Если игрок застрял или столкнулся
+с проблемой, он сможет обратиться
+к администратору.
+</p>
+
+<p>
+Администратор сможет найти игрока,
+телепортироваться к нему
+и помочь решить проблему.
+</p>
+
+</div>
+
+</section>
+
+<section style="text-align:center">
+
+<h2>📱 Android</h2>
+
+<p style="color:#aeb8c3">
+Игра создаётся для Android.
+Версия для ПК появится позже.
+</p>
+
+<a class="button" href="#">
+🚧 Игра в разработке
+</a>
+
+</section>
+
+<footer>
+© 2026 Russian Life RP<br>
+Проект находится в разработке 🚧
+</footer>
+
 </body>
-</html>
+  </html>
